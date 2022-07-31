@@ -1,6 +1,5 @@
 // Sensor pins
-#define sensorPower 7
-#define sensorPin A0
+#define sensorPin 25
 
 // Value for storing water level
 int val = 0;
@@ -20,7 +19,7 @@ void loop() {
   int level = readSensor();
   
   Serial.print("Water level: ");
-  Serial.println(level-799);
+  Serial.println(level);
   
   delay(1000);
 }
