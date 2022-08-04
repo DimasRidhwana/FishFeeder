@@ -115,13 +115,15 @@ void loop()
 void Water_Level()
 {
     int level = readSensor();
-    if (level < 3000){
+    Serial.print(level);
+    /*if (level < 3000){
       Serial.print("Kering");
       }
     else {
       Serial.print("Basah");
       }
       delay(1000);
+     */ 
 }
 
 void Ultrasonic() 
