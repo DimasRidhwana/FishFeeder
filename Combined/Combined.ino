@@ -70,7 +70,7 @@ void setup()
     digitalWrite(sensorPower, LOW);
   
     //Servo
-    myservo.attach(25);  // attaches the servo on pin 9 to the servo object
+    myservo.attach(14);  // attaches the servo on pin 9 to the servo object
     myservo.write(180);
     delay(1000);
     myservo.write(0);
